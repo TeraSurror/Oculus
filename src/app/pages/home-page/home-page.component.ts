@@ -6,10 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
+  config: any;
+  fullpage_api: any;
+  constructor() {
+    
+    this.config = {
+      // fullpage options
+      lazyLoading : true
+    };
+  }
 
-  constructor() { }
+
 
   ngOnInit() {
   }
+
+  getRef(fullPageRef) {
+    this.fullpage_api = fullPageRef;
+  }
+
 
 }
