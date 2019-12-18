@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { NgModule } from '@angular/core';
-import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,7 +22,6 @@ import { NavbarComponent } from './navigation/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularFullpageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,6 +7,21 @@
     animation: mymove 5s infinite;
 }
 
+h1{
+    animation-name: slideInUp;
+    animation-duration: 1s;    
+    animation-fill-mode: both;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
 
 @keyframes mymove {
     from {top: 0px;}

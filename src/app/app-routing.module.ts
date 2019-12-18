@@ -6,6 +6,7 @@ import { EventsPageComponent } from './pages/events-page/events-page.component';
 
 
 const routes: Routes = [
+  { path : '' , redirectTo : 'home' , pathMatch : 'full' },
   { path : 'home' , component : HomePageComponent },
   { path : 'about-us' , component : AboutUsPageComponent },
   { path : 'events' , component : EventsPageComponent }
