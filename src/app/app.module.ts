@@ -9,6 +9,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { NavbarComponent } from './navigation/navbar/navbar.component';
+import { ParallaxDirective } from './directives/parallax.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navigation/navbar/navbar.component';
     HomePageComponent,
     AboutUsPageComponent,
     EventsPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,

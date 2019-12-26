@@ -1,29 +1,77 @@
-.box{
-    position: relative;
-    top:0;
-    background-color: black;
-    width:100px;
-    height: 100px;
-    animation: mymove 5s infinite;
+app-events-page{
+    background-image: url(https://cdn.inspirationhut.net/wp-content/uploads/2013/05/13.png);
 }
 
-h1{
-    animation-name: slideInUp;
-    animation-duration: 1s;    
-    animation-fill-mode: both;
+/*tech*/
+.left-img{
+    margin-top: 20px;
 }
 
-@keyframes slideInUp {
-    from {
-        transform: translate3d(0, 100%, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+.left-img img{
+    height: 600px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-@keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
+.left-img .info-text{
+    margin-top: 60px;
+}
+
+
+/*cultural*/
+
+.right-img{
+    margin-top: 40px;
+}
+
+.right-img img{
+    height: 600px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.right-img .info-text{
+    margin-top: 60px;
+
+}
+
+
+
+.info-text p{
+    margin-top: 20px;
+}
+
+/* overlay*/
+.overlay{
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+    /*overflow: hidden;*/
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+}
+.overlay:hover {
+    opacity: 0.5;
+}
+
+/*hover zoom*/
+
+img {
+    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+    overflow: hidden;
 }
