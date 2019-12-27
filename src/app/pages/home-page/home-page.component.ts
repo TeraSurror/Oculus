@@ -24,6 +24,30 @@ export class HomePageComponent implements OnInit {
       speed : 5,
       center : true,      
     });
+    var event1 = new Rellax('.circle1',{
+      speed : 5,
+      center : true, 
+    });
+    
+    var event2 = new Rellax('.circle2',{
+      speed : -2,
+      center : true, 
+    });
+    
+    var event3 = new Rellax('.circle3',{
+      speed : 5,
+      center : true, 
+    });
+    
+    var event4 = new Rellax('.circle4',{
+      speed : -2,
+      center : true, 
+    });
+    
+    var event5 = new Rellax('.circle5',{
+      speed : 5,
+      center : true, 
+    });
   }
 
   onOpenNav(){
