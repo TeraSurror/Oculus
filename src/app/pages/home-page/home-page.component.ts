@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 declare var Rellax : any;
 
 @Component({
@@ -9,7 +10,7 @@ declare var Rellax : any;
 
 
 export class HomePageComponent implements OnInit {
-  constructor() {}
+  constructor(private router : Router) {}
   ngOnInit() {
     var introImgRellax = new Rellax('.intro-img',{
       speed : 5,
@@ -23,5 +24,10 @@ export class HomePageComponent implements OnInit {
       speed : 5,
       center : true,      
     });
+  }
+
+  onOpenNav(){
+    //window.location.href = '/navigation';
+    this.router.navigate(['navigation']);
   }
 }

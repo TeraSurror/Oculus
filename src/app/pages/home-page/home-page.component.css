@@ -12,8 +12,8 @@ First Section CSS
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-image: url("http://murmurationfest.com/wp-content/themes/murmuration/images/home_murmuration.png");
+    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
+    /*background-image: url("http://murmurationfest.com/wp-content/themes/murmuration/images/home_murmuration.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,6 +287,38 @@ Footer ECF6F7
 Media Queries And General Animation Stuff
 ====================================================
 */
+
+/*Open Nav Button*/
+
+.open-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1em 3em 0 0;
+    color: #FA3A61;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.open-nav:hover{
+    background-color: #212c3d;
+}
+
+
+.open-nav img{
+    width: 42px;
+    height: auto;
+}
+
+.open-nav .nav-text{
+    font-weight: bold;
+    margin-left: 0.7em;
+    text-transform: uppercase;
+}
+
 
 /* Desktops */
 
