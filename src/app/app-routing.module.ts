@@ -4,6 +4,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { NavbarComponent } from './navigation/navbar/navbar.component';
+import { SponsorsComponent } from './pages/sponsors/sponsors.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path : 'home' , component : HomePageComponent },
   { path : 'about-us' , component : AboutUsPageComponent },
   { path : 'events' , component : EventsPageComponent },
+  { path : 'sponsors', component : SponsorsComponent },
   { path : 'navigation' , component : NavbarComponent }
 ];
 

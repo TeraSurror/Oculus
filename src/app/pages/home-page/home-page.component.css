@@ -1,3 +1,4 @@
+
 /* 
 ====================================================
 First Section CSS
@@ -114,7 +115,7 @@ Second Section CSS
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png');
+    
 }
 
 .intro-img {
@@ -212,6 +213,33 @@ Events Section CSS
     align-items: center;
 }
 
+.dashed-ring{
+    width: 220px;
+    height: 220px;
+}
+
+
+.dashed-ring circle {
+    stroke: #6FAFAB;
+    stroke-dasharray: 2 9;
+    -webkit-animation: 100s linear infinite;
+    animation: 100s linear infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation-name: u57800da0;
+    animation-name: u57800da0;
+}
+
+@keyframes  u57800da0{
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
 
 
 
@@ -428,6 +456,11 @@ Media Queries And General Animation Stuff
         height: 300px;
         width: auto;
     }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -442,6 +475,79 @@ Media Queries And General Animation Stuff
         height: 100px;
         width: auto;
     }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro-img{
+        display: none;
+    }
+    .intro-txt{
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+
+
+
+    .section-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .events-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer-logo{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer-links{
+        display: none;
+    }
+
+    .footer-social{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer-sponsor{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .open-nav{
+        margin: 1em;
+    }
+
+    .nav-text{
+        display: none;
+    }
+        
 }
 
 .glitch {

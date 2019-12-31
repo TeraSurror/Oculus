@@ -10,6 +10,12 @@ import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.compon
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { NavbarComponent } from './navigation/navbar/navbar.component';
 import { ParallaxDirective } from './directives/parallax.directive';
+import { SponsorsComponent } from './pages/sponsors/sponsors.component';
+import { TechEventsComponent } from './pages/events/tech-events/tech-events.component';
+import { LiteraryEventsComponent } from './pages/events/literary-events/literary-events.component';
+import { FunEventsComponent } from './pages/events/fun-events/fun-events.component';
+import { FeaturedEventsComponent } from './pages/events/featured-events/featured-events.component';
+import { PerformingArtsComponent } from './pages/events/performing-arts/performing-arts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ParallaxDirective } from './directives/parallax.directive';
     AboutUsPageComponent,
     EventsPageComponent,
     NavbarComponent,
-    ParallaxDirective
+    ParallaxDirective,
+    SponsorsComponent,
+    TechEventsComponent,
+    LiteraryEventsComponent,
+    FunEventsComponent,
+    FeaturedEventsComponent,
+    PerformingArtsComponent
   ],
   imports: [
     BrowserModule,

@@ -17,4 +17,22 @@ export class NavbarComponent implements OnInit {
     this.router.navigate(['home']);
   }
 
+  onHomeClick(){
+    this.router.navigate(['home']);
+  }
+
+  onAboutUsClick(){
+    this.router.navigate(['about-us']);
+  }
+
+  onSponsorsClick(){
+    this.router.navigate(['sponsors']);
+  }
+
+  onEventsClick(){
+    this.router.navigate(['events']);
+  }
+
+  
+
 }

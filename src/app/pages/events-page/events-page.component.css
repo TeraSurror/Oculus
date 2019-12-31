@@ -1,77 +1,144 @@
-app-events-page{
-    background-image: url(https://cdn.inspirationhut.net/wp-content/uploads/2013/05/13.png);
+.navigation-bar{
+    padding: 1em 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-/*tech*/
-.left-img{
-    margin-top: 20px;
+.open-nav{
+    color: #FA3A61;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    cursor: pointer;
+    padding: 1em;
 }
 
-.left-img img{
-    height: 600px;
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.left-img .info-text{
-    margin-top: 60px;
-}
-
-
-/*cultural*/
-
-.right-img{
-    margin-top: 40px;
-}
-
-.right-img img{
-    height: 600px;
-    width: 400px;
-    margin-top: 50px;
-    margin-right: 50px;
-}
-
-.right-img .info-text{
-    margin-top: 60px;
-
+.open-nav:hover{
+    background-color: #212c3d;
 }
 
 
-
-.info-text p{
-    margin-top: 20px;
-}
-
-/* overlay*/
-.overlay{
-    transition: .5s ease;
-    opacity: 1;
-    color: white;
-    /*overflow: hidden;*/
+.open-nav img{
+    width: 42px;
     height: auto;
-    width: auto;
-    margin-left: 50px;
-}
-.overlay:hover {
-    opacity: 0.5;
 }
 
-/*hover zoom*/
-
-img {
-    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
-    -moz-transition: all 0.5s ease; /* Firefox */
-    -ms-transition: all 0.5s ease; /* IE 9 */
-    -o-transition: all 0.5s ease; /* Opera */
-    transition: all 0.5s ease;
+.open-nav .nav-text{
+    font-weight: bold;
+    margin-left: 0.7em;
+    text-transform: uppercase;
 }
 
-img:hover {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-    transform:scale(1.25);
-    overflow: hidden;
+
+.events-wrapper {
+    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
+}
+
+.event-header-txt {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6FAFAB;
+}
+
+.events-container {
+    padding: 0em 5em;
+}
+
+.event {
+    background-color: white;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.event:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.event-img {
+    width: 50%;
+}
+
+.event-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.event-txt {
+    width: 50%;
+    padding: 6em;
+}
+
+.event-txt h3 {
+    color: #6FAFAB;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.event-btn {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #FA3A61;
+    color: #FA3A61;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    cursor: pointer;
+}
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+@media all and (max-width: 480px) {
+
+    .events-container{
+        padding: 0;
+        margin-top: 2em;
+        margin: 2em 2em;
+    }
+
+    .event{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event-img{
+        width: 100%;
+    }
+
+    .event-txt{
+        width: 100%;
+        margin: 0;
+        padding: 2em 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-bar{
+        padding: 0 1em;
+    }
+
+    .open-nav .nav-text{
+        display: none;
+    }
+
+
 }
