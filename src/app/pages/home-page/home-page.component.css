@@ -242,11 +242,6 @@ Events Section CSS
 }
 
 
-
-
-
-
-
 /* 
 ====================================================
 Fourth Section CSS App Advert
@@ -290,34 +285,6 @@ Fourth Section CSS App Advert
     width: 40%;
 }
 
-/*
-.dashed-ring{
-    height: 222px;
-    width: 222px;
-}
-.dashed-ring circle {
-    stroke: #80B8B4;
-    stroke-dasharray: 2 9;
-    -webkit-animation: 100s linear infinite;
-    animation: 100s linear infinite;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation-name: u57800da0;
-    animation-name: u57800da0;
-}
-
-@keyframes u57800da0 {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(1turn);
-        transform: rotate(1turn);
-    }
-}*/
-
-
 /* 
 ====================================================
 Footer ECF6F7
@@ -326,7 +293,7 @@ Footer ECF6F7
 
 .footer-main{
     width: 100%;
-    background-color: #4C4C4C;
+    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
     display: flex;    
     padding: 3em 0;
 }

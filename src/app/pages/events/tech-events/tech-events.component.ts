@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tech-events',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechEventsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit() {
+  }
+
+  onOpenNav(){
+    this.router.navigate(['navigation']);
   }
 
 }
