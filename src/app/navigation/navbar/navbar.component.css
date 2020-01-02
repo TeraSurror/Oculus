@@ -58,6 +58,7 @@ a {
 .nav-list a {
     margin: 1em 0;
     cursor: pointer;
+    transition: transform 0.5s ease;
 }
 
 .nav-list h1 {
@@ -92,6 +93,11 @@ a {
     animation-duration: 0.5s;
     animation-delay: 0.4s;
 }
+
+.nav-list a:hover{
+    transform: translateX(20px);
+}
+
 
 @keyframes fadeInLeft {
     from {
