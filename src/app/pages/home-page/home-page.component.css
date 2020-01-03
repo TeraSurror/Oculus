@@ -1,4 +1,3 @@
-
 /* 
 ====================================================
 First Section CSS
@@ -36,7 +35,6 @@ First Section CSS
     height: 300px;
     width: auto;
     margin-top: 1em;
-    
 }
 
 .hero-btn {
@@ -115,7 +113,6 @@ Second Section CSS
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 }
 
 .intro-img {
@@ -159,7 +156,7 @@ Events Section CSS
 ====================================================
 */
 
-.section-three{
+.section-three {
     height: 100vh;
     width: 100%;
     background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
@@ -167,7 +164,7 @@ Events Section CSS
     flex-direction: column;
 }
 
-.events-title{
+.events-title {
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -175,19 +172,19 @@ Events Section CSS
     align-items: center;
 }
 
-.events-title h1{
+.events-title h1 {
     text-transform: uppercase;
     color: #6FAFAB;
     text-align: center;
 }
 
-.events-wrapper{    
+.events-wrapper {
     height: 75vh;
     display: flex;
     flex-direction: row;
 }
 
-.events-wrapper .event{    
+.events-wrapper .event {
     height: 100%;
     width: 25%;
     display: flex;
@@ -198,14 +195,14 @@ Events Section CSS
     color: #6FAFAB;
 }
 
-.events-wrapper .event .circle{
+.events-wrapper .event .circle {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-color: #EAFFF8;
 }
 
-.event-btn-container{
+.event-btn-container {
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -213,11 +210,10 @@ Events Section CSS
     align-items: center;
 }
 
-.dashed-ring{
+.dashed-ring {
     width: 220px;
     height: 220px;
 }
-
 
 .dashed-ring circle {
     stroke: #6FAFAB;
@@ -230,7 +226,7 @@ Events Section CSS
     animation-name: u57800da0;
 }
 
-@keyframes  u57800da0{
+@keyframes u57800da0 {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -240,7 +236,6 @@ Events Section CSS
         transform: rotate(1turn);
     }
 }
-
 
 /* 
 ====================================================
@@ -257,31 +252,29 @@ Fourth Section CSS App Advert
     align-items: center;
 }
 
-.ad-img{
+.ad-img {
     width: 50%;
-    height: 100vh;    
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-
-.ad-img img{
+.ad-img img {
     width: auto;
     height: 80%;
 }
 
-.ad-text{
+.ad-text {
     width: 50%;
 }
 
-.ad-text h1, .ad-text h2{
-    font-weight: lighter;    
+.ad-text h1, .ad-text h2 {
+    font-weight: lighter;
     color: #6FAFAB;
 }
 
-.ad-text a img{
+.ad-text a img {
     width: 40%;
 }
 
@@ -291,58 +284,56 @@ Footer ECF6F7
 ====================================================
 */
 
-.footer-main{
+.footer-main {
     width: 100%;
     background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
-    display: flex;    
+    display: flex;
     padding: 3em 0;
 }
 
-.footer-main h2{
+.footer-main h2 {
     color: #FA3A61;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.footer-main p{
+.footer-main p {
     color: #ECF6F7;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
-.footer-logo{
+.footer-logo {
     width: 25%;
 }
 
-.footer-logo img{
+.footer-logo img {
     height: auto;
     width: 100%;
-    
 }
 
-.footer-links{
+.footer-links {
     width: 20%;
 }
 
-.footer-social{
+.footer-social {
     width: 30%;
 }
 
-.footer-sponsor{
+.footer-sponsor {
     width: 25%;
 }
 
-.footer-sponsor img{
+.footer-sponsor img {
     height: auto;
-    width: 100%;    
+    width: 100%;
 }
 
-.bottom-footer{
-    color : #ECF6F7;
+.bottom-footer {
+    color: #ECF6F7;
     text-align: center;
     background-color: #212121;
     padding: 1em 0;
 }
-
 
 /* 
 ====================================================
@@ -352,7 +343,7 @@ Media Queries And General Animation Stuff
 
 /*Open Nav Button*/
 
-.open-nav{
+.open-nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -365,22 +356,20 @@ Media Queries And General Animation Stuff
     padding: 1em;
 }
 
-.open-nav:hover{
+.open-nav:hover {
     background-color: #212c3d;
 }
 
-
-.open-nav img{
+.open-nav img {
     width: 42px;
     height: auto;
 }
 
-.open-nav .nav-text{
+.open-nav .nav-text {
     font-weight: bold;
     margin-left: 0.7em;
     text-transform: uppercase;
 }
-
 
 /* Desktops */
 
@@ -423,10 +412,9 @@ Media Queries And General Animation Stuff
         height: 300px;
         width: auto;
     }
-    .section-two{
+    .section-two {
         display: flex;
         flex-direction: column;
-
     }
 }
 
@@ -442,79 +430,73 @@ Media Queries And General Animation Stuff
         height: 100px;
         width: auto;
     }
-    .section-two{
+    .section-two {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .intro-img{
+    .intro-img {
         display: none;
     }
-    .intro-txt{
-        margin:0;
+    .intro-txt {
+        margin: 0;
         padding: 0;
         text-align: center;
     }
-
-
-
-    .section-three{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .events-wrapper {
+        
+        overflow-x: auto;
     }
-
-    .events-wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-main{
+    .events-wrapper .event {        
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        color: #6FAFAB;
+        margin: 0 5em;
+    }
+
+    .events-wrapper .circle5{
+        margin-right: 5em;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
-    .footer-logo{
+    .footer-logo {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
-    .footer-links{
+    .footer-links {
         display: none;
     }
-
-    .footer-social{
+    .footer-social {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
-    .footer-sponsor{
+    .footer-sponsor {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
-    .open-nav{
+    .open-nav {
         margin: 1em;
     }
-
-    .nav-text{
+    .nav-text {
         display: none;
     }
-        
 }
 
 .glitch {
