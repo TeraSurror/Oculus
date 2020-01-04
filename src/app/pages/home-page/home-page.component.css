@@ -5,6 +5,7 @@ First Section CSS
 */
 
 .section-one {
+    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -14,13 +15,29 @@ First Section CSS
     color: #ffffff;
     background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
     /*background-image: url("http://murmurationfest.com/wp-content/themes/murmuration/images/home_murmuration.png");*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 }
+
+.section-one video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+  }
+  
 
 .hero {
     width: 100%;
+    z-index: 22;
 }
 
 .hero-txt {
@@ -29,6 +46,7 @@ First Section CSS
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2em;
+    
 }
 
 .hero-txt img {
