@@ -26,18 +26,16 @@ First Section CSS
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: 0;
+    z-index: 1;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    
-  }
-  
+}
 
 .hero {
     width: 100%;
-    z-index: 22;
+    z-index: 2;
 }
 
 .hero-txt {
@@ -46,7 +44,6 @@ First Section CSS
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2em;
-    
 }
 
 .hero-txt img {
@@ -372,6 +369,7 @@ Media Queries And General Animation Stuff
     align-items: flex-end;
     cursor: pointer;
     padding: 1em;
+    z-index: 2;
 }
 
 .open-nav:hover {
@@ -387,6 +385,25 @@ Media Queries And General Animation Stuff
     font-weight: bold;
     margin-left: 0.7em;
     text-transform: uppercase;
+}
+
+/* Top logo */
+
+.top-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1em 1em 0 3em;
+    color: #FA3A61;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.top-logo img {
+    width: 200px;
+    height: auto;
 }
 
 /* Desktops */
@@ -463,10 +480,9 @@ Media Queries And General Animation Stuff
         text-align: center;
     }
     .events-wrapper {
-        
         overflow-x: auto;
     }
-    .events-wrapper .event {        
+    .events-wrapper .event {
         height: 100%;
         width: 100%;
         display: flex;
@@ -477,8 +493,7 @@ Media Queries And General Animation Stuff
         color: #6FAFAB;
         margin: 0 5em;
     }
-
-    .events-wrapper .circle5{
+    .events-wrapper .circle5 {
         margin-right: 5em;
     }
     .footer-main {
