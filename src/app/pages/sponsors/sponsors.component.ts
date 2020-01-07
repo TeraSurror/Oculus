@@ -17,4 +17,8 @@ export class SponsorsComponent implements OnInit {
     this.router.navigate(['navigation']);
   }
 
+  toHome(){
+    this.router.navigate(['home']);
+  }
+
 }

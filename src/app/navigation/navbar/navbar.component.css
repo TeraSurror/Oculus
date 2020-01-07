@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'FourHand';
+    src: url('/assets/fonts/fourHand_TRIAL.ttf');
+}
+
+
+.logo-txt h1,h6{
+    font-family: 'FourHand';
+}
+
 a {
     color: #ffffff;
     text-decoration: none;

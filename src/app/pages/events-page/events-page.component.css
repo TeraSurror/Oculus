@@ -1,13 +1,24 @@
-
-
-.navigation-bar{
-    padding: 0.5em 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@font-face{
+    font-family: 'FourHand';
+    src: url('/assets/fonts/fourHand_TRIAL.ttf');
 }
 
-.open-nav{
+
+.navigation-bar {
+    padding: 2em 5em;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navigation-bar .logo h1{
+    font-family: 'FourHand';
+    font-size: 4em;
+    color: white;
+}
+
+.open-nav {
     color: #FA3A61;
     display: flex;
     justify-content: space-evenly;
@@ -16,38 +27,38 @@
     padding: 1em;
 }
 
-.open-nav:hover{
+.open-nav:hover {
     background-color: #212c3d;
 }
 
-
-.open-nav img{
+.open-nav img {
     width: 42px;
     height: auto;
 }
 
-.open-nav .nav-text{
+.open-nav .nav-text {
     font-weight: bold;
     margin-left: 0.7em;
     text-transform: uppercase;
 }
-
 
 .events-wrapper {
     background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
 }
 
 .event-header-txt {
-    height: 30vh;
+    
+    padding-bottom: 5em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #6FAFAB;
-    
 }
 
-
+.event-header-txt h1 {
+    font-size: 3em;
+}
 
 .events-container {
     padding: 0em 5em;
@@ -110,23 +121,19 @@
 @media all and (min-width: 480px) and (max-width: 768px) {}
 
 @media all and (max-width: 480px) {
-
-    .events-container{
+    .events-container {
         padding: 0;
         margin-top: 2em;
         margin: 2em 2em;
     }
-
-    .event{
+    .event {
         display: flex;
         flex-direction: column;
     }
-
-    .event-img{
+    .event-img {
         width: 100%;
     }
-
-    .event-txt{
+    .event-txt {
         width: 100%;
         margin: 0;
         padding: 2em 2em;
@@ -137,13 +144,28 @@
         align-items: center;
     }
 
-    .navigation-bar{
+    
+
+    .navigation-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
         padding: 0 1em;
+        padding-top: 1.5em;
+        position: sticky;
+        top: 0;
+        background-color: #354153;
     }
 
-    .open-nav .nav-text{
+    .navigation-bar .logo h1{
+        font-size: 2.5em;
+    }
+
+    .open-nav .nav-text {
         display: none;
     }
-
-
+    .open-nav {
+        padding: 0;
+    }
 }
