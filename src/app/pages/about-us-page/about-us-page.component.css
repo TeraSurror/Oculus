@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.s1{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-image: url('https://cdn160.picsart.com/upscale-232128521064212.png?r1024x1024');
+        background-size: 120vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
+       
+    
+}
+
+
+.slanted {
+    color: #FFF;
+    font-size: 28px;
+    
+  }
+  #pagetitle{
+    font-size: 60px;
+    font-family: 'Aclonica', sans-serif;
+    
+
+}
+
+.s4{
+    background: #000;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: 'Aclonica', sans-serif;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 50%;
+    /*padding: 15px;*/
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+
+}
+
+
+/*Our team section*/
+
+.s4 #t-heading, .s4 #t-initial {
+  opacity: 1;
+}
+
+.s4.active #t-heading, .s4.active #t-initial {
+  opacity: 1;
+}
+
+#t-h1{
+    position: relative;
+}
+
+
+
+#t-initial {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    height: 75vh;
+    top: 5%;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+-webkit-transition-delay: 0.4s;
+        -o-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+}
+
+.t-initial-header {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 16vw;
+    height: 16vw;
+    cursor: pointer;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.t-head {
+    background-size: cover;
+    color: #FFF;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+#t-ch-1 {
+    position: absolute;
+    top: 25.4%;
+    left: 42.1%;
+    background-image: url("../../../assets/images/about-us-page/Chairs.png");
+}
+
+#t-ch-2 {
+    position: absolute;
+    top: 1%;
+    left: 50.8%;
+    background-image: url("../../../assets/images/about-us-page/Creative.png");
+}
+
+#t-ch-3 {
+    position: absolute;
+    top: 1%;
+    left: 33.4%;
+    background-image: url("../../../assets/images/about-us-page/tech.png");
+}
+
+#t-ch-4 {
+    position: absolute;
+    top: 25.4%;
+    left: 59.5%;
+    background-image: url("../../../assets/images/about-us-page/Events.png");
+}
+
+#t-ch-5 {
+    position: absolute;
+    top: 49.8%;
+    left: 33.4%;
+    /*background-image: url("");*/
+
+}
+
+#t-ch-6 {
+    position: absolute;
+    top: 25.4%;
+    left: 24.7%;
+    background-image: url("../../../assets/images/about-us-page/sponsers.png");
+}
+
+#t-ch-7 {
+    position: absolute;
+    top: 49.8%;
+    left: 50.8%;
+    /*background-image: url("");*/
+}
+
+#t-ch-8 {
+    position: absolute;
+    top: 49.8%;
+    left: 16%;
+    background-image: url("../../../assets/images/about-us-page/marketing.png");
+}
+
+#t-ch-9 {
+    position: absolute;
+    top: 49.8%;
+    left: 68.2%;
+    background-image: url("../../../assets/images/about-us-page/PR.png");
+}
+
+.t-initial-header img{
+    width: 3em;
+    position: relative;
+    top: 2em;
+}
+
+.t-initial-header p{
+    font-size: 1.1vw;
+    max-width: 10vw;
+    margin: 0 auto;
+    position: relative;
+    top: 8.4em;
+}
+
+@media only screen and (max-width: 480px) {
+.t-initial-header {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 36vw;
+    height: 36vw;
+    cursor: pointer;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+.t-initial-header p{
+    font-size: 2.4vw;
+    max-width: 18vw;
+    margin: 0 auto;
+    position: relative;
+    top: 8.9em;
+}
+
+#t-ch-1 {
+    top: 34.4%;
+    left: 33%;
+}
+
+#t-ch-2 {
+    top: 4.6%;
+    left: 33%;
+}
+
+#t-ch-2 div p{
+    top: 8em;
+}
+
+#t-ch-3 {
+    top: 19%;
+    left: 16.5%;
+    
+}
+
+#t-ch-3 div p{
+    top: 8.2em;
+}
+
+#t-ch-4 {
+    top: 19%;
+    left: 49.5%;
+}
+
+#t-ch-4 div p{
+    top: 7.5em;
+}
+
+#t-ch-5 {
+    top: 34.4%;
+    left: 66%;
+    
+}
+
+#t-ch-6 {
+    top: 34.4%;
+    left: 0;
+}
+
+#t-ch-7 {
+    top: 49.8%;
+    left: 16.5%;
+}
+
+#t-ch-8 {
+    top: 49.8%;
+    left: 49.5%;
+}
+
+#t-ch-9 {
+    top: 65.2%;
+    left: 33%;
+}
+}
