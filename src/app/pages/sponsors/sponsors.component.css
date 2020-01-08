@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'FourHand';
+    src: url('/assets/fonts/fourHand_TRIAL.ttf');
+}
+
 .navigation-bar{
     padding: 2em 5em;
     display: flex;
@@ -5,6 +10,12 @@
     justify-content: space-between;
     align-items: flex-start;
     
+}
+
+.navigation-bar .logo h1{
+    font-family: 'FourHand';
+    font-size: 4em;
+    color: #ffffff;
 }
 
 .open-nav{
@@ -37,24 +48,66 @@
 }
 
 
-.sponsors-wrapper{
+.sponsors-list{
+    margin : 0.5em 3em;
+    margin-bottom: 0;
     
+}
+
+.sponsor-wrapper{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.sponsor{
-    margin: 3em;
+.sponsor1{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #ffffff;
+}
+
+.sponsor img{
+    max-width : 100%;
+    height: auto;
 }
 
 .event-header-txt {
-    height: 30vh;
+    padding-bottom: 5em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #6FAFAB;
     
+}
+
+@media all and (max-width:480px){
+    .navigation-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 1em;
+        padding-top: 1.5em;
+        position: sticky;
+        top: 0;
+        background-color: #354153;
+    }
+
+    .navigation-bar .logo h1{
+        font-size: 2.5em;
+    }
+
+    .open-nav .nav-text {
+        display: none;
+    }
+    .open-nav {
+        padding: 0;
+    }
+
+    .event-header-txt{
+        margin-top : 3em;
+        padding: 0;
+        
+    }
 }

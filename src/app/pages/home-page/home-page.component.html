@@ -6,7 +6,7 @@
 
 
 <div class="section-one">
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <video playsinline="playsinline" oncanplay="this.play()" onloadedmetadata="this.muted = true" autoplay="autoplay" muted="muted" loop="loop">
         <source src="assets/videos/Oculus_web_animation.mp4" type="video/mp4">
       </video>
     <div class="hero hero-txt">

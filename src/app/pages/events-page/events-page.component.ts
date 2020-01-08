@@ -12,7 +12,9 @@ export class EventsPageComponent implements OnInit {
   constructor(private router : Router) { }
 
   ngOnInit() {}
-
+  toHome(){
+    this.router.navigate(['home']);
+  }
   onOpenNav(){
     //window.location.href = '/navigation';
     this.router.navigate(['navigation']);
