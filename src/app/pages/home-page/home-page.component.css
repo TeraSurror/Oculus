@@ -151,15 +151,14 @@ Events Section CSS
 
 .section-three {
     height: 100vh;
-    width: 100%;
-    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
+    width: 100%;    
     display: flex;
     flex-direction: column;
-    
+    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}  
 
 .events-title {
     height: 15vh;
@@ -180,6 +179,7 @@ Events Section CSS
     height: 75vh;
     display: flex;
     flex-direction: row;
+    background-image: url('http://murmurationfest.com/wp-content/themes/murmuration/images/default-murm-bg-mid.png');
 }
 
 .events-wrapper .event {

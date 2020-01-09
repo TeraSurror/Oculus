@@ -146,6 +146,12 @@
         align-items: center;
     }
 
+    .event-header-txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     
 
     .navigation-bar {
