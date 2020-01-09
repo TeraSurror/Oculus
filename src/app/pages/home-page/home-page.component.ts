@@ -13,7 +13,7 @@ export class HomePageComponent implements OnInit {
   constructor(private router : Router) {}
   ngOnInit() {
     var introImgRellax = new Rellax('.intro-img',{
-      speed : 5,
+      speed : 3,
       center : true
     });
     var introTextRellax = new Rellax('.intro-txt',{

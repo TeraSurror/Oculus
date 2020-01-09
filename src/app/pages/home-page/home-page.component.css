@@ -32,28 +32,28 @@ First Section CSS
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
 .star {
-    animation: star 5s ease-out infinite;
-  }
-  @keyframes star {
+    animation: star 5s ease-out;
+}
+
+@keyframes star {
     0% {
-      opacity: 0;
-      transform: scale(1.5) translateY(-0.75em);
+        opacity: 0;
+        transform: scale(1.5) translateY(-0.75em);
     }
     20% {
-      opacity: 1;
+        opacity: 1;
     }
     89% {
-      opacity: 1;
-      transform: scale(1);
+        opacity: 1;
+        transform: scale(1);
     }
     100% {
-      opacity: 0;
-      transform: translateZ(-1000em);
+        opacity: 0;
+        transform: translateZ(-1000em);
     }
-  }
-  
-  
+}
 
 .hero {
     width: 100%;
@@ -155,14 +155,19 @@ Events Section CSS
     background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
     display: flex;
     flex-direction: column;
-}
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
 
 .events-title {
     height: 15vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    font-family: 'Gallow Tree';
 }
 
 .events-title h1 {
@@ -186,6 +191,7 @@ Events Section CSS
     align-items: center;
     text-align: center;
     color: #6FAFAB;
+    font-family: 'Gallow Tree';
 }
 
 .events-wrapper .event .circle {
@@ -288,6 +294,7 @@ Footer ECF6F7
     color: #FA3A61;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-family: 'Gallow Tree';
 }
 
 .footer-main p {
@@ -297,11 +304,14 @@ Footer ECF6F7
 
 .footer-logo {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-logo img {
     height: auto;
-    width: 100%;
+    width: 60%;
 }
 
 .footer-links {
@@ -318,7 +328,9 @@ Footer ECF6F7
 
 .footer-sponsor img {
     height: auto;
-    width: 100%;
+    width: 60%;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .bottom-footer {
@@ -485,7 +497,7 @@ Media Queries And General Animation Stuff
         width: 100%;
     }
     .footer-logo {
-        margin: 0;
+        margin: 4em;
         padding: 0;
         width: 100%;
     }
@@ -508,8 +520,7 @@ Media Queries And General Animation Stuff
     .nav-text {
         display: none;
     }
-
-    .section-four{
+    .section-four {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -518,8 +529,7 @@ Media Queries And General Animation Stuff
         height: fit-content;
         max-width: 100%;
     }
-
-    .ad-text{        
+    .ad-text {
         width: 100%;
         text-align: center;
         display: flex;
@@ -529,22 +539,18 @@ Media Queries And General Animation Stuff
         padding: 0 2em;
         margin-bottom: 3em;
     }
-
-    .ad-text a img{        
+    .ad-text a img {
         width: 200px;
         height: auto;
     }
-
-    .ad-img{
+    .ad-img {
         height: 70vh;
         width: 100%;
     }
-
-    .ad-img img{
+    .ad-img img {
         max-width: 80%;
         height: auto;
     }
-    
 }
 
 .glitch {

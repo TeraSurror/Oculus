@@ -1,0 +1,53 @@
+.theme{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.theme-intro{
+    display: flex;
+}
+
+.theme-intro-img{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-intro-img img{
+    width: 60%;        
+}
+
+.theme-intro-img .grid{
+    height: 100px;
+    width: 100px;
+}
+
+.theme-intro-txt{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+.intro-txt h1{
+    font-family: 'Gallow Tree';
+    color: #6FAFAB;
+}
+
+.intro-txt p{
+    padding-right: 4em;
+}
+
+.intro-txt .btn-red{
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.6em 2em;
+    border: 1px solid #FA3A61;
+    color: #FA3A61;
+    letter-spacing: 1px;
+}
