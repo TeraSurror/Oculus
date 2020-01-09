@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~fullpage.js/dist/fullpage.min.css';
+@font-face{
+    font-family: 'Gallow Tree';
+    src: url('/assets/fonts/GallowTree-Regular.otf');
+}
 
 *{
     box-sizing: border-box;

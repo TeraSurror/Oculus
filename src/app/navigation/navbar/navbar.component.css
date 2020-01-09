@@ -20,7 +20,7 @@ a {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);
+    background: linear-gradient(135deg, #1e1f33 15%, #354153 73%, #354153 85%);    
 }
 
 .nav-ad {
@@ -56,6 +56,7 @@ a {
     align-items: center;
     font-family: 'Anton', sans-serif;
     color: #ffffff;
+    
 }
 
 .nav-list {

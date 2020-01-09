@@ -54,6 +54,7 @@
     justify-content: center;
     align-items: center;
     color: #6FAFAB;
+    background-image: url('http://murmurationfest.com/wp-content/themes/murmuration/images/home_murmuration.png');
 }
 
 .event-header-txt h1 {
@@ -62,6 +63,7 @@
 
 .events-container {
     padding: 0em 5em;
+    background-image: url('http://murmurationfest.com/wp-content/themes/murmuration/images/home_murmuration.png');
 }
 
 .event {
@@ -140,6 +142,12 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event-header-txt{
+        display: flex;
         justify-content: center;
         align-items: center;
     }

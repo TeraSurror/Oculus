@@ -16,6 +16,8 @@ import { LiteraryEventsComponent } from './pages/events/literary-events/literary
 import { FunEventsComponent } from './pages/events/fun-events/fun-events.component';
 import { FeaturedEventsComponent } from './pages/events/featured-events/featured-events.component';
 import { PerformingArtsComponent } from './pages/events/performing-arts/performing-arts.component';
+import { ThemeCarouselComponent } from './pages/home-page/theme-carousel/theme-carousel.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PerformingArtsComponent } from './pages/events/performing-arts/performi
     LiteraryEventsComponent,
     FunEventsComponent,
     FeaturedEventsComponent,
-    PerformingArtsComponent
+    PerformingArtsComponent,
+    ThemeCarouselComponent,
+  
   ],
   imports: [
     BrowserModule,
