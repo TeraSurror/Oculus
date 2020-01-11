@@ -21,6 +21,8 @@
     "@angular/router": "~8.2.9",
     "@fullpage/angular-fullpage": "0.0.14",
     "angular-cli-ghpages": "^0.6.2",
+    "angularfire2": "^5.3.0",
+    "firebase": "^7.6.2",
     "rellax": "^1.10.0",
     "rxjs": "~6.4.0",
     "serialize-javascript": ">=2.1.1",
@@ -28,8 +30,8 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.21",
-    "@angular/cli": "^8.3.21",
+    "@angular-devkit/build-angular": "^0.803.22",
+    "@angular/cli": "^8.3.22",
     "@angular/compiler-cli": "~8.2.9",
     "@angular/language-service": "~8.2.9",
     "@types/jasmine": "~3.3.8",
