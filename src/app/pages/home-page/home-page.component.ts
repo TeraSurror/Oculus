@@ -54,4 +54,20 @@ export class HomePageComponent implements OnInit {
     //window.location.href = '/navigation';
     this.router.navigate(['navigation']);
   }
+  onTechEventsClick(){
+    this.router.navigate(['events/technical']);
+  }
+  onLiteraryEventsClick(){
+    this.router.navigate(['events/literary']);
+  }
+  onFeaturedEventsClick(){
+    this.router.navigate(['events/featured']);
+  }
+  onPerformingArtsClick(){
+    this.router.navigate(['events/performing-arts']);
+  }
+  onFunEventsClick(){
+    this.router.navigate(['events/fun']);
+  }
+
 }

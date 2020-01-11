@@ -197,7 +197,7 @@ svg {
 .content_p{
     position: absolute;
     color: ghostwhite;
-    left: 140vh;
+    left: 135vh;
     top:20vh;
     font-family: "Sacramento", cursive;
     text-align: center;
@@ -207,7 +207,7 @@ svg {
 
 .now{
     position: absolute;
-    left: 10vh;
+    left: 3vh;
     top: 15vh;
 }
 .now img{
@@ -4804,6 +4804,8 @@ Events Section CSS
 }
 
 .events-wrapper {
+  cursor: pointer;
+
     height: 75vh;
     display: flex;
     flex-direction: row;
@@ -4823,6 +4825,7 @@ Events Section CSS
 }
 
 .events-wrapper .event .circle {
+
     height: 200px;
     width: 200px;
     border-radius: 50%;

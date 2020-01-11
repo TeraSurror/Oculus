@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
   }
-
+ 
   onClose(){
     this.router.navigate(['home']);
   }
