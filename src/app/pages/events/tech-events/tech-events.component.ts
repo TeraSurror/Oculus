@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class TechEventsComponent implements OnInit {
 
+
   constructor(private router : Router) { }
 
   ngOnInit() {
