@@ -1599,3 +1599,34 @@ h2,
 h3 {
   font-weight: 200;
 }
+
+.open-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1em 3em 0 0;
+  color: #FA3A61;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  cursor: pointer;
+  padding: 1em;
+  z-index: 2;
+}
+
+.open-nav:hover {
+  background-color: #212c3d;
+}
+
+.open-nav img {
+  width: 42px;
+  height: auto;
+}
+
+.open-nav .nav-text {
+  font-weight: bold;
+  margin-left: 0.7em;
+  text-transform: uppercase;
+}
+
+
