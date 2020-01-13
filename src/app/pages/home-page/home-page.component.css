@@ -4808,7 +4808,7 @@ Events Section CSS
 .events-wrapper {
   cursor: pointer;
 
-    height: 75vh;
+    height: 85vh;
     display: flex;
     flex-direction: row;
     background-image: url('http://murmurationfest.com/wp-content/themes/murmuration/images/default-murm-bg-mid.png');
@@ -4834,13 +4834,6 @@ Events Section CSS
     background-color: #EAFFF8;
 }
 
-.event-btn-container {
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .dashed-ring {
     width: 220px;

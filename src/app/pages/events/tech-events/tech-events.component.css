@@ -1,348 +1,3 @@
-/*
-.navigation-bar{
-    position: sticky;
-    top: 0;z-index: 999;
-    width: 100%;
-    padding: 0.5em 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-}
-
-.open-nav{
-    color: #FA3A61;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    cursor: pointer;
-    padding: 1em;
-}
-
-.open-nav:hover{
-    background-color: #212c3d;
-}
-
-
-.open-nav img{
-    width: 42px;
-    height: auto;
-}
-
-.open-nav .nav-text{
-    font-weight: bold;
-    margin-left: 0.7em;
-    text-transform: uppercase;
-}
-
-
-.main-event{
-    overflow: hidden;
-    width: 100%;
-    height: 86vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-
-.main-event-img{    
-    width: 50%;
-}
-
-.main-event-img img{
-    position: fixed;
-    top : 10em;
-    left: 5em;
-    width: 400px;
-    height: auto;
-}
-
-.main-event-list{    
-    overflow: auto;
-    overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
-    width: 50%;
-}
-
-.main-event-list::-webkit-scrollbar { width: 0 !important }
-*/
-
-
-
-
-
-/*
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-
-.bodyy{
-    background-color: black;
-}
-.wrapper {
-    font-family: 'Raleway', sans-serif;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  width: 300px;
-  height: 500px;
-  perspective: 900px;
-}
-
-.container {
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  transition: .5s all ease;
-  transform: rotateX(60deg) scale(0.7);
-  perspective: 900px;
-  box-shadow: 0px 20px 50px #555;
-  animation: entry 1s linear 1;
-}
-
-#c0 {
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, #eba65b 30%, #d99267 100%);
-  z-index: 300;
-  box-shadow: 0px 20px 100px #555;
-}
-
-#c1 {
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-  box-shadow: 0px 20px 100px #555;
-  left: 100%;
-  z-index: 0;
-}
-
-#c2 {
-  left: -100%;
-  z-index: 0;
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-  box-shadow: 0px 20px 100px #555;
-}
-
-.container:hover {
-  cursor: pointer;
-  transform: rotate(0deg) scale(1) translateY(10px);
-  transition: .5s all ease;
-  z-index: 400;
-}
-
-.image {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 45%;
-  background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
-}
-
-#i1 {
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-}
-
-#i2 {
-  background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-}
-
-span {
-  position: absolute;
-  top: 0%;
-  left: 55%;
-  border-radius: 100%;
-  background-color: #fff;
-  z-index: 10;
-}
-
-.sun {
-  position: absolute;
-  top: 50%;
-  height: 50%;
-  left: 0%;
-  width: 100%;
-}
-
-.sun1 {
-  width: 50px;
-  height: 50px;
-  box-shadow: 0px 0px 10px #fff;
-}
-
-.st4 {
-  fill: #f8c56f;
-  opacity: 1;
-}
-
-.st5,
-.st7 {
-  fill: #fff;
-}
-
-#sh2 {
-  opacity: 0.5;
-}
-
-#sh3 {
-  opacity: 0.3;
-}
-
-.st6 {
-  fill: #59476f;
-}
-
-.st10 {
-  fill: #c5a7e5;
-  stroke: #222;
-}
-
-.st11 {
-  stroke: #212121;
-  opacity: 0.5;
-}
-
-#sh1 {
-  fill: #f8c56f;
-  opacity: 0.4;
-}
-
-.st0 {
-  fill: #a25a62;
-  stroke: none;
-  stroke-miterlimit: 10;
-}
-
-.st1 {
-  fill: none;
-  stroke: #a25a62;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-
-.st2 {
-  fill: #cd775c;
-}
-
-.st3 {
-  fill: #fff;
-  opacity: 0.3;
-}
-
-.story {
-  position: absolute;
-  top: 45%;
-  left: 0%;
-  height: 55%;
-  width: 100%;
-  background: linear-gradient(to bottom, #eba65b 0%, #d99267 40%);
-  z-index: 30;
-}
-
-#s1 {
-  background: linear-gradient(to top, #5b62a2 0%, #7b88d1 100%);
-}
-
-#s2 {
-  background: linear-gradient(to top, #5b62a2 0%, #7b88d1 120%);
-}
-
-.info {
-  position: absolute;
-  top: 10%;
-}
-
-h3 {
-  text-align: center;
-  text-shadow: 0px 0px 10px #eee;
-  color: #eee;
-  letter-spacing: 2px;
-}
-
-h4 {
-  color: #111;
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  letter-spacing: 2px;
-}
-
-h1 {
-  color: #111;
-  position: fixed;
-  top: 0%;
-  left: 30%;
-  letter-spacing: 2px;
-}
-
-p {
-  font-size: 14px;
-  color: #fff;
-  padding: 0px 20px 20px 20px;
-  line-height: 150%;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.page {
-  position: absolute;
-  top: 80%;
-  width: 100%;
-  left: 0%;
-  height: 20%;
-  z-index: 30;
-}
-
-li {
-  position: absolute;
-  top: 50%;
-  list-style: none;
-  color: #111;
-}
-
-li:nth-child(1) {
-  left: 15%;
-  animation: simple1 1s linear infinite;
-}
-
-li:nth-child(2) {
-  right: 15%;
-  animation: simple 1s linear infinite;
-}
-
-@keyframes simple {
-  50% {
-    transform: translateX(10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(10px);
-    opacity: 0;
-  }
-}
-
-@keyframes simple1 {
-  50% {
-    transform: translateX(-10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-}
-
-@keyframes entry {
-  0% {
-    top: -20%;
-    opacity: 0.1;
-  }
-  100% {
-    top: 0%;
-  }
-}
-*/
 
 @import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";
 img{
@@ -440,6 +95,7 @@ img{
   bottom: -16px;
 }
 .material-card .mc-content {
+  background-color: #fff;
   position: absolute;
   right: 0;
   top: 0;
@@ -491,7 +147,7 @@ img{
   transition: all 1.2s;
 }
 .material-card .mc-footer {
-  height: 0;
+  
   overflow: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1599,19 +1255,33 @@ h2,
 h3 {
   font-weight: 200;
 }
+@font-face{
+  font-family: 'FourHand';
+  src: url('/assets/fonts/fourHand_TRIAL.ttf');
+}
+
+
+.navigation-bar {
+  padding: 2em 5em;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navigation-bar .logo h1{
+  font-family: 'FourHand';
+  font-size: 4em;
+  color: white;
+}
 
 .open-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 1em 3em 0 0;
   color: #FA3A61;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
   cursor: pointer;
   padding: 1em;
-  z-index: 2;
 }
 
 .open-nav:hover {
@@ -1629,4 +1299,28 @@ h3 {
   text-transform: uppercase;
 }
 
+@media all and (max-width: 480px){
+  .navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1em;
+    padding-top: 1.5em;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #354153;
+}
 
+.navigation-bar .logo h1{
+    font-size: 2.5em;
+}
+
+.open-nav .nav-text {
+    display: none;
+}
+.open-nav {
+    padding: 0;
+}
+}
