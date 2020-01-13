@@ -4572,6 +4572,7 @@ Our Team
 
 #t-h1{
     position: relative;
+    font-family: 'Gallow Tree';
 }
 
 
@@ -4602,7 +4603,8 @@ Our Team
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
-    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Gallow Tree';
 
 }
 

@@ -98,6 +98,7 @@
     color: #6FAFAB;
     font-weight: lighter;
     text-transform: uppercase;
+    font-family: 'Gallow Tree';
 }
 
 .event-btn {
@@ -150,6 +151,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 2em;
     }
 
     
