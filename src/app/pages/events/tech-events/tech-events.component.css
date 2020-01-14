@@ -219,7 +219,7 @@ img{
   transition: all 0.9s;
 }
 .material-card .img-container {
-  overflow: hidden;
+  
   position: absolute;
   left: 0;
   top: 0;
